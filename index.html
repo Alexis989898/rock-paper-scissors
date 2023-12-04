@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
+    <div id="wrapper-score">
+        <div class="score">
+            <div class="score-text">Player points</div>
+            <div id="score-player" class="score-points">0</div>
+        </div>
+        <div class="score">
+            <div class="score-text">Computer points</div>
+            <div id="score-computer" class="score-points">0</div>
+        </div>
+    </div>
+    <div id="info-text">Make a choice!</div>
+    <div id="wrapper-buttons">
+        <button id="rockbtn" class="btnchoice">Rock</button>
+        <button id="paperbtn" class="btnchoice">Paper</button>
+        <button id="scissorsbtn" class="btnchoice">Scissors</button>
+    </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>
